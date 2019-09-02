@@ -17,20 +17,13 @@
   </a>
   <a href="https://github.com/Marten4n6/EvilOSX/issues">
     <img src="https://img.shields.io/github/issues/Marten4n6/EvilOSX.svg?style=flat-square" alt="Issues">
-  </a>
-  <a href="https://travis-ci.org/Marten4n6/EvilOSX">
-      <img src="https://img.shields.io/travis/Marten4n6/EvilOSX/master.svg?style=flat-square" alt="Build Status">
-  </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md">
-      <img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat-square" alt="Contributing">
-  </a>
 </p>
 
 ---
 
 ## Features
 - Emulate a terminal instance
-- Simple extendable [module](https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md) system
+- Simple extendable [module] system
 - No bot dependencies (pure python)
 - Undetected by anti-virus (OpenSSL [AES-256](https://en.wikipedia.org/wiki/Advanced_Encryption_Standard) encrypted payloads)
 - Persistent
@@ -49,10 +42,10 @@
 
 ```bash
 # Clone or download this repository
-$ git clone https://github.com/Marten4n6/EvilOSX
+$ git clone https://github.com/alex14324/evilos.git
 
 # Go into the repository
-$ cd EvilOSX
+$ cd evilos
 
 # Install dependencies required by the server
 $ sudo pip install -r requirements.txt
@@ -135,20 +128,3 @@ For more information on SemVer, please visit https://semver.org/.
 - Modules take advantage of python's dynamic nature, they are simply sent over the network compressed with [zlib](https://www.zlib.net), along with any configuration options
 - Since the bot only communicates with the server and never the other way around, the server has no way of knowing when a bot goes offline
 
-## Issues
-Feel free to submit any issues or feature requests [here](https://github.com/Marten4n6/EvilOSX/issues).
-
-## Contributing
-For a simple guide on how to create modules click [here](https://github.com/Marten4n6/EvilOSX/blob/master/CONTRIBUTING.md).
-
-## Credits
-- The awesome [Empire](https://github.com/EmpireProject) project
-- Shoutout to [Patrick Wardle](https://twitter.com/patrickwardle) for his awesome talks, check out [Objective-See](https://objective-see.com/)
-- manwhoami for his projects: OSXChromeDecrypt, MMeTokenDecrypt, iCloudContacts <br/>
-  (now deleted... let me know if you reappear)
-- The slowloris module is pretty much copied from [PySlowLoris](https://github.com/ProjectMayhem/PySlowLoris)
-- [urwid](http://urwid.org/) and [this code](https://github.com/izderadicka/xmpp-tester/blob/master/commander.py) which saved me a lot of time with the CLI
-- Logo created by [motusora](https://www.behance.net/motusora)
-
-## License
-[GPLv3](https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt)
