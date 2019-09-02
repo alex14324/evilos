@@ -8,17 +8,6 @@
 
 <h4 align="center">An evil RAT (Remote Administration Tool) for macOS / OS X.</h4>
 
-<p align="center">
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt">
-      <img src="https://img.shields.io/badge/license-GPLv3-blue.svg?style=flat-square" alt="License">
-  </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/blob/master/LICENSE.txt">
-      <img src="https://img.shields.io/badge/python-2.7,%203.7-blue.svg?style=flat-square" alt="Python">
-  </a>
-  <a href="https://github.com/Marten4n6/EvilOSX/issues">
-    <img src="https://img.shields.io/github/issues/Marten4n6/EvilOSX.svg?style=flat-square" alt="Issues">
-</p>
-
 ---
 
 ## Features
