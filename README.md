@@ -1,12 +1,9 @@
 <h1 align="center">
   <br>
-  <a href="https://github.com/Marten4n6/EvilOSX"><img src="/data/images/logo.png?raw=true" alt="Logo" width="280"></a>
-  <br>
   EvilOSX
-  <br>
+  </br>
 </h1>
 
-<h4 align="center">An evil RAT (Remote Administration Tool) for macOS / OS X.</h4>
 
 ---
 
